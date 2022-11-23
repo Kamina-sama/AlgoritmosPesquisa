@@ -1,0 +1,6 @@
+usando as sementes 10, 100, 1000 e 10000, eu fiz um gráfico das médias de custo de tempo para cada número de elementos
+o gráfico seria mais fiel a complexidade das funções com um número maior de sementes usadas, e escolhidas aleatoriamente,
+mas já fica claramente visivel que a versão recursiva cresce muito mais devagar. 
+Isso se deve justamente pois a cada etapa, ela descarta metade dos elementos restantes, sempre uma fração constante, 
+enquanto que a versão iterativa descarta apenas 1 elemento por vez, uma fração que depende do número de elementos total, 
+e essa fração fica menor a medida que o número total de elementos aumenta.
